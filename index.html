@@ -7,6 +7,73 @@
     <title>Susana Sun</title>
 </head>
 <body>
-    Hello World!
+    <h1>Welcome to the Trivia Game!</h1>
+    <h2>Please enter the following information:</h2>
+
+    <form method="get">
+        <label for="first">First Name</label>
+        <input id="first" type="text" name="first" placeholder='First Name'>
+    
+        <label for="last">Last Name:</label>
+        <input id="last" type="text" name="last" placeholder="Last Name">
+
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="" placeholder="email@email.com">
+        
+        <label for="pass">Password:</label>
+        <input id="pass" type="password" name="" value="">
+
+
+        <h3>For the following questions, please answer to the best of your ability!</h3>
+        <h4>The questions will be random!</h4>
+
+         <p>1. Which planet is the hottest in the solar system?</p>
+         <select name="planet">
+            <option value="venus">Venus</option>
+            <option value="mercury">Mercury</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+         </select>
+
+         <p>2. Which vegetable was the first to be grown in space?</p>
+         <label for="vegetable">Answer:</label>
+         <input id="vegetable" type="text" name="vegetable" placeholder="Type your answer here">
+         <br>
+         <br>
+         <!-- Below is the image tag with the link to the answer to the trivia question -->
+         <a href="https://www.andnowuknow.com/bloom/potato-became-first-vegetable-grown-space-help-wisconsin/jordan-okumura/41853"><img src="vegetable_pic.jpg" alt=""></a>
+         <p>Click the image to check your answer!</p>
+
+         <p>3. TRUE OR FALSE - There are 86400 seconds in a day.</p>
+         <label for="true">True:</label>
+         <input type="radio" name="seconds" value="trueSeconds">
+
+         <label for="false">False:</label>
+         <input type="radio" name="seconds" value="falseSeconds">
+
+         <p>4. Which American state is the largest (by area)?</p>
+         <ul>
+             <li>Hints</li>
+                <ol>
+                    <li>The tallest mountain in this state is called Denali.</li>
+                    <li>This state has more than 100,000 glaciers.</li>
+                    <li>The capital of this state is called Juneau. </li>
+                </ol>
+         </ul>
+         <label for="state">Answer:</label>
+         <input id="state" type="text" name="state" placeholder="Type your answer here">
+
+         <p>5. What is the symbol for potassium?</p>
+         <label for="symbol">Answer:</label>
+         <input id="symbol" type="text" name="symbol" placeholder="Type your answer here">
+         <br>
+         <!-- Below is the link to learn more about the periodic table. -->
+         <a href="https://www.livescience.com/25300-periodic-table.html">Click here to learn more about the periodic table!</a>
+
+         <br>
+         <input type="submit" name="" value="Submit">
+    </form>
+    
 </body>
 </html>
