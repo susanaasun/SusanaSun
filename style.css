@@ -1,9 +1,52 @@
+.headertext{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    border:springgreen;
+    border-width: thick;
+    border-width: 2px;
+    border-style: solid;;
+    color:midnightblue;
+
+    background-color:lightskyblue;
+}
+
+.subtitles{
+    font-family:monospace;
+    font-weight: bold;
+    text-align: center;
+    border:skyblue;
+    border-width: thick;
+    border-width: 2px;
+    border-style: solid;;
+    color:white;
+
+    background-color:steelblue;
+}
+
 .container{
-    color: blue;
-    background-color:lavender;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    border:springgreen;
+    border-width: thick;
+    border-width: 2px;
+    border-style: solid;;
+    color:midnightblue;
+
+    background-color:lightskyblue;
 }
 
 .container2{
     color: black;
-    background-color:yellow;
+    background-color:mintcream;
+    border: skyblue;
+    border-width: thick;
+    border-width: 2px;
+    border-style: solid;;
+}
+
+.container3{
+    color: black;
+    background-color: bisque;
 }
