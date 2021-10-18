@@ -22,64 +22,7 @@
 
   </div>
 
-  <!-- <form class="needs-validation" action="result2.html" method="get">
-    <div class="form-group">
-      <label for="email">Email address</label>
-      <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
-    </div>
-    <div class="form-group">
-      <label for="pickanum">Example select</label>
-      <select class="form-control" id="pickanum" name="pickanum" required>
-        <option selected></option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-      </select>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="Red" id="redcheck" name="colors">
-      <label class="form-check-label" for="red">
-        Red
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="Green" id="greencheck" name="colors">
-      <label class="form-check-label" for="green">
-        Green
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="Purple" id="purplecheck" name="colors">
-      <label class="form-check-label" for="purple">
-        Purple
-      </label>
-    </div>
-
-    <div class="form-group">
-      <label for="writestuff">Example textarea</label>
-      <textarea class="form-control" id="writestuff" name="writestuff" rows="3" required></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary mt-3">Submit</button>
-  </form> -->
-
-  <!-- <div id="result2"></div>
-
-  <script type="text/javascript">
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const email = urlParams.get('email');
-    const pickanum = urlParams.get('pickanum');
-    const colors = urlParams.getAll('colors')
-    const writestuff = urlParams.get('writestuff');
-    var output = "Your email is: " + email + "  The number you picked is: " + pickanum + " the colors you picked were: " + colors + " and you wrote the following: " + writestuff;
-
-    jQuery(document).ready(function() {
-      $("#result2").html(output); 
-    });
-
-    </script> -->
+  <br>
 
   <form class="needs-validation" action="result2.html" method="get">
     <div class="form-group">
@@ -95,7 +38,14 @@
 
     <img src="https://media.istockphoto.com/photos/mental-health-matters-motivational-quote-on-the-letter-board-text-picture-id1307052182?b=1&k=20&m=1307052182&s=170667a&w=0&h=2QclCUuNAicP20FB0E6-EfxwW3LUadY9J6r8HZGCN8Q=" alt="Mental Health Image">
 
-    <h3>For the following questions, please answer to the best of your ability!</h3>
+    <br>
+    <br>
+
+    <div class="subtitles">
+      <h3>For the following questions, please answer to the best of your ability!</h3>
+    </div>
+
+    <br>
 
     <div class="form-group">
       <li>
@@ -173,7 +123,7 @@
       <li>
         <label for="writehopes">Question 5: What are your hopes and dreams for the future?</label>
         </li>
-      <textarea class="form-control" id="writehopes" name="writehopes" rows="3" required></textarea>
+      <textarea class="form-control" id="writehopes" name="writehopes" rows="3" placeholder="Explain here" required></textarea>
     </div>
 
     <br>
